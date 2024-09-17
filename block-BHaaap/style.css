@@ -123,46 +123,38 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-size: 40px;
+
+h1{
+  background-color: #D18C1D;
   border: 1px solid red;
-  background-color: #d18c1d;
   padding: 10px;
-  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
 }
-p {
-  height: 600px;
-  width: 400px;
-  background-color: #d1d631;
-  border: 2px dotted black;
-  font-size: 20px;
-  margin-bottom: 20px;
-  padding: 15px;
-}
-img {
-  width: 400px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  margin-left: 8px;
-}
-.circle {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  margin-left: 8px;
+#para{
+  width: 600px;
+  height: 400px;
+  background-color: #D1D631;
+  border: 2px black dotted;
+  font-size: 24px;
+  padding: 16px;
 }
 
-h3 {
-  font-size: 25px;
-  padding: 8px 8px;
-  margin-bottom: 10px;
+#circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: red;
 }
-a {
+a{
+  background-color: #A1A1A1;
+  text-decoration: none;
   border-bottom: 3px dashed blue;
-  background-color: #a1a1a1;
-  font-size: 20px;
-  padding: 10px;
-  margin-left: 8px;
+  padding: 24px;
+  font-size: 24px;
+  display: inline-block;
+}
+img{
+  width: 300px;
+  border-radius: 24px;
 }
