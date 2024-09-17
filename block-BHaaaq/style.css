@@ -123,47 +123,49 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: bolder;
-  margin: 30px 20px;
+/* custome css starts here */
+
+h1{
+  font-size: 24px;
+  text-align: center;
+  padding: 24px;
 }
 
-.box {
-  height: 70px;
-  width: 100px;
-  background-color: maroon;
-  margin: 20px;
-}
-#box1 {
+.box{
+  background-color:crimson;
+  width: 80px;
+  height: 60px;
   border: 3px solid black;
-}
-#box2 {
-  border: 3px double black;
   display: inline-block;
-}
-#box3 {
-  border: 3px dashed black;
-  display: inline-block;
-}
-#box4 {
-  border: 3px dotted black;
-  display: inline-block;
-}
-#box5 {
-  border: none;
-  display: inline-block;
-}
-#box6 {
-  height: 300px;
-  width: 300px;
-  background-color: red;
-  color: white;
-  padding: 15px;
   margin: 20px;
-  border-top: 15px solid blue;
-  border-left: 15px solid green;
-  border-right: 15px solid grey;
-  border-bottom: 15px solid yellow;
-  outline: 15px solid purple;
+
+}
+
+.b3{
+  border: 3px dashed black;
+}
+
+.b4{
+  border: 3px dotted black;
+}
+
+.b5{
+  border: 0px dashed black;
+}
+
+.rows{
+  margin: 40px;
+}
+p{
+  width: 220px;
+  height: 350px;
+  background-color: blueviolet;
+  margin: 60px;
+  border-top: 20px solid blue;
+  border-right: 20px solid gray;
+  border-bottom: 20px solid yellow ;
+  border-left: 20px solid green;
+  box-shadow: 0 0 0 20px violet;
+  color: white;
+  padding: 10px;
 }
